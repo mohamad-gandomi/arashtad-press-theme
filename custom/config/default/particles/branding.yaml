@@ -1,0 +1,4 @@
+enabled: '1'
+content: 'Powered by <a href="https://arashtad.com" title="Arashtad" class="g-powered-by">Arashtad</a>'
+css:
+  class: g-branding

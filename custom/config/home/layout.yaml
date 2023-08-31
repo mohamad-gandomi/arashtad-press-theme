@@ -1,0 +1,132 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1630204279
+layout:
+  navigation: {  }
+  /header/:
+    -
+      - custom-7257
+    -
+      - custom-9387
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25': {  }
+      -
+        'mainbar 50':
+          -
+            - system-content-3192
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      variations: ''
+  aside:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+    attributes:
+      class: ''
+      variations: ''
+  sidebar:
+    type: section
+    subtype: aside
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+content:
+  custom-7257:
+    title: Healine
+    attributes:
+      html: "<h1 class=\"center accent-color\">\nDesign, Metaverse Development, and Programming\n</h1>\n\n<h2 class=\"center accent-color\">\nArashtad Technology Blog\n</h2>\n\n<p class=\"center\">\nExplore the original high tech reference content we provide to learn deeper and solve your technical problems.\n<br>\nYou will find solutions to design, web development, information technology, security, Linux, open source, and much more subjects here.\n</p>\n\n"
+    block:
+      class: no-verge
+  custom-9387:
+    title: Newsletter
+    attributes:
+      html: "<p class=\"center\">\nTo make sure you won't miss any valuable content we share with our community.\n</p>\n\n<div class=\"tnp tnp-subscription ar-tnp-wrapper\">\n<form method=\"post\" action=\"https://blog.arashtad.com/?na=s\" class=\"ar-horiz-tnp\">\n\n<input type=\"hidden\" name=\"nlang\" value=\"\">\n\n<div class=\"tnp-field tnp-field-firstname\">\n<input class=\"tnp-name\" type=\"text\" name=\"nn\" id=\"tnp-4\" value=\"\" placeholder=\"Your name\">\n</div>\n\n<div class=\"tnp-field tnp-field-email\">\n<input class=\"tnp-email\" type=\"email\" name=\"ne\" id=\"tnp-5\" value=\"\" placeholder=\"Your best email\" required>\n</div>\n\n<div class=\"tnp-field tnp-field-button\">\n<input class=\"tnp-submit\" type=\"submit\" value=\"Subscribe\" >\n</div>\n\n</form>\n</div>"

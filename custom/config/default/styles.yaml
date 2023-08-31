@@ -1,0 +1,60 @@
+preset: preset6
+base:
+  background: '#111111'
+  text-color: '#999999'
+accent:
+  color-1: '#26a38c'
+  color-2: '#222222'
+font:
+  family-default: 'Optima, Lucida Console, sans-serif'
+  family-title: 'Verdana, Helvetica, Tahoma, Arial, sans-serif'
+link:
+  regular: '#26a38c'
+  hover: '#eeeeee'
+navigation:
+  background: '#181818'
+  text-color: '#bbbbbb'
+header:
+  background: '#181818'
+  background-image: 'gantry-media://header/img01.jpg'
+  background-overlay: enabled
+  text-color: '#bbbbbb'
+intro:
+  background: '#111111'
+  text-color: '#aaaaaa'
+features:
+  background: '#181818'
+  text-color: '#bbbbbb'
+utility:
+  background: '#111111'
+  text-color: '#aaaaaa'
+above:
+  background: '#111111'
+  text-color: '#aaaaaa'
+testimonials:
+  background: '#111111'
+  background-image: 'gantry-media://testimonials/img01.jpg'
+  background-overlay: enabled
+  text-color: '#aaaaaa'
+expanded:
+  background: '#181818'
+  text-color: '#bbbbbb'
+footer:
+  background: '#0d0d0d'
+  text-color: '#999999'
+offcanvas:
+  background: '#181818'
+  text-color: '#999999'
+  toggle-color: '#bbbbbb'
+  toggle-visibility: '1'
+  width: 12rem
+breakpoints:
+  large-desktop-container: 75rem
+  desktop-container: 60rem
+  tablet-container: 48rem
+  large-mobile-container: 30rem
+  mobile-menu-breakpoint: 48rem
+menu:
+  col-width: 200px
+  animation: g-fade
+  hide-on-mobile: '0'

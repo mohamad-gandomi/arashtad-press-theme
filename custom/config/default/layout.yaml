@@ -1,0 +1,170 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1630204279
+layout:
+  /navigation/:
+    -
+      - system-messages-7972
+    -
+      - 'logo-9608 10'
+      - 'menu-6409 65'
+      - 'position-widget-6909 25'
+  /header/: {  }
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'aside 25': {  }
+      -
+        'mainbar 50':
+          -
+            - system-content-1587
+      -
+        'sidebar 25': {  }
+  /footer/:
+    -
+      - custom-6599
+    -
+      - 'position-widget-4832 17'
+      - 'position-widget-3539 17'
+      - 'position-widget-3496 17'
+      - 'position-widget-5747 17'
+      - 'custom-1968 32'
+    -
+      - 'logo-9323 7'
+      - 'copyright-1736 84'
+      - 'totop-8670 9'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  aside:
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+    block:
+      fixed: '1'
+  container-main:
+    attributes:
+      boxed: ''
+      class: ''
+      extra: {  }
+  footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-9608:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://logo/small-logo.svg'
+      svg: ''
+      text: 'Arashtad Blog'
+  menu-6409:
+    attributes:
+      menu: main
+  position-widget-6909:
+    attributes:
+      widget: '{"type":"widget","widget":"search","title":"Search","options":{"widget":{"title":""}}}'
+      key: widget
+    block:
+      id: top_search
+  custom-6599:
+    title: 'Inner Pages Newsletter Widget'
+    attributes:
+      html: "<div class=\"spacer\"></div>\n\n<h3 class=\"center no-margin accent-color\">\nSubscribe to our free newsletter\n</h3>\n\n<p class=\"center\">\nTo make sure you won't miss any valuable content we share with our community.\n</p>\n\n<div class=\"tnp tnp-subscription ar-tnp-wrapper\">\n<form method=\"post\" action=\"https://blog.arashtad.com/?na=s\" class=\"ar-horiz-tnp\">\n\n<input type=\"hidden\" name=\"nlang\" value=\"\">\n\n<div class=\"tnp-field tnp-field-firstname\">\n<input class=\"tnp-name\" type=\"text\" name=\"nn\" id=\"tnp-4\" value=\"\" placeholder=\"Your name\">\n</div>\n\n<div class=\"tnp-field tnp-field-email\">\n<input class=\"tnp-email\" type=\"email\" name=\"ne\" id=\"tnp-5\" value=\"\" placeholder=\"Your best email\" required>\n</div>\n\n<div class=\"tnp-field tnp-field-button\">\n<input class=\"tnp-submit\" type=\"submit\" value=\"Subscribe\" >\n</div>\n\n</form>\n</div>"
+    block:
+      class: no-verge
+  position-widget-4832:
+    title: 'Company menu'
+    attributes:
+      widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"title":"Company","nav_menu":3}}}'
+      key: company-menu
+  position-widget-3539:
+    title: 'Legal menu'
+    attributes:
+      widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"title":"Legal","nav_menu":71}}}'
+      key: legal-menu
+  position-widget-3496:
+    title: 'Business menu'
+    attributes:
+      widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"title":"Business","nav_menu":72}}}'
+      key: business-menu
+  position-widget-5747:
+    title: 'Explore menu'
+    attributes:
+      widget: '{"type":"widget","widget":"nav_menu","title":"Navigation Menu","options":{"widget":{"title":"Explore","nav_menu":73}}}'
+      key: explore-menu
+  custom-1968:
+    title: 'Follow Us'
+    attributes:
+      html: "<h3 class=\"widgettitle g-title\">Follow Us</h3>\n<ul class=\"social-links\">\n<li>\n<a href=\"https://github.com/arashtad/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-github\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.linkedin.com/company/arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-linkedin\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://codepen.io/arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-codepen\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://profiles.wordpress.org/arashtad#content-plugins\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-wordpress\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.pinterest.com/arashadstudio\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-pinterest\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://dribbble.com/Arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-dribbble\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.behance.net/arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-behance\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.deviantart.com/arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-deviantart\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.tumblr.com/blog/arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-tumblr\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://medium.com/@arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-medium\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.slideshare.net/Arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-slideshare\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.youtube.com/channel/UCWNTPt14DD5T1QdbvibMLHA\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-youtube\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://vimeo.com/arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-vimeo\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://twitter.com/arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-twitter\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.scribd.com/user/567045007/Arashtad\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-scribd\"></span>\n</a>\n</li>\n<li>\n<a href=\"https://www.reddit.com/user/ArashtadStudio\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">\n<span class=\"fa fa-reddit\"></span>\n</a>\n</li>\n</ul>\n<p class=\"text-right\">\n<a href=\"https://arashtad.com/arashtad-social-media-profiles/\"><span class=\"fa fa-external-link\"></span> All Arashtad Social Profiles</a>\n</p>"
+  logo-9323:
+    title: Branding
+    attributes:
+      image: 'gantry-media://logo/logo-grey.svg'
+      svg: ''
+      text: 'Arashtad Blog'
+  copyright-1736:
+    attributes:
+      date:
+        start: '2013'
+      owner: Arashtad
+      target: _parent
+      additional:
+        text: 'All Rights Reserved.'
+  totop-8670:
+    title: 'To Top'
+    attributes:
+      content: TOP

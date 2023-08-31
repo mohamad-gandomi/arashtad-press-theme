@@ -1,0 +1,11 @@
+enabled: '1'
+date:
+  start: '2010'
+  end: now
+owner: Arashtad
+link: ''
+target: _parent
+additional:
+  text: ''
+css:
+  class: ''

@@ -1,0 +1,3 @@
+meta: {  }
+head_bottom: "<meta name=\"google-site-verification\" content=\"d_24oQMwgwwDFHg1JJPEO31pSdTW4TktKb1xIVBwk4Y\" />\n\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8HKP4WH8P3\">\n</script>\n\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-8HKP4WH8P3');\n</script>"
+atoms: {  }

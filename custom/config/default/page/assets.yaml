@@ -1,0 +1,58 @@
+favicon: ''
+touchicon: ''
+css:
+  -
+    location: 'gantry-assets://custom/css/atom-one-dark-reasonable.min.css'
+    inline: ''
+    extra: {  }
+    priority: '0'
+    name: 'Highlights CSS'
+  -
+    location: 'gantry-assets://css/OverlayScrollbars.min.css'
+    inline: ''
+    extra: {  }
+    priority: '0'
+    name: 'OverlayScrollbars CSS'
+javascript:
+  -
+    location: 'gantry-assets://js/jquery-3.6.0.min.js'
+    inline: ''
+    in_footer: '0'
+    extra: {  }
+    priority: '0'
+    name: 'jQuery 3.6.0'
+  -
+    location: 'gantry-assets://js/OverlayScrollbars.min.js'
+    inline: ''
+    in_footer: '0'
+    extra: {  }
+    priority: '0'
+    name: 'OverlayScrollbars JS'
+  -
+    location: 'gantry-assets://js/custom-jquery.js'
+    inline: ''
+    in_footer: '0'
+    extra: {  }
+    priority: '0'
+    name: 'Custom jQuery'
+  -
+    location: 'gantry-assets://js/custom-js.js'
+    inline: ''
+    in_footer: '0'
+    extra: {  }
+    priority: '0'
+    name: 'Custom JS'
+  -
+    location: 'gantry-assets://js/highlight.min.js'
+    inline: ''
+    in_footer: '0'
+    extra: {  }
+    priority: '0'
+    name: 'Highlights JS'
+  -
+    location: 'gantry-assets://js/custom-three.js'
+    inline: ''
+    in_footer: '0'
+    extra: {  }
+    priority: '0'
+    name: 'Custom ThreeJS'

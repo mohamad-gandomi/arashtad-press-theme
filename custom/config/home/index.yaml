@@ -1,0 +1,70 @@
+name: home
+timestamp: 1693114924
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1630204279
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  aside: Aside
+  sidebar: Sidebar
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  custom:
+    custom-7257: Healine
+    custom-9387: Newsletter
+    custom-6771: 'Inner Pages Newsletter Widget'
+    custom-8572: 'Follow Us'
+  content:
+    system-content-3192: 'Page Content'
+  messages:
+    system-messages-2043: 'System Messages'
+  logo:
+    logo-5875: 'Logo / Image'
+    logo-6717: Branding
+  menu:
+    menu-4960: Menu
+  widget:
+    position-widget-9821: Widget
+    position-widget-2677: 'Company menu'
+    position-widget-2073: 'Legal menu'
+    position-widget-6725: 'Business menu'
+    position-widget-2010: 'Explore menu'
+  copyright:
+    copyright-3064: Copyright
+  totop:
+    totop-2534: 'To Top'
+  mobile-menu:
+    mobile-menu-2181: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    aside: aside
+    sidebar: sidebar
+    footer: footer
+    offcanvas: offcanvas
+    system-messages-2043: system-messages-7972
+    logo-5875: logo-9608
+    menu-4960: menu-6409
+    position-widget-9821: position-widget-6909
+    custom-6771: custom-6599
+    position-widget-2677: position-widget-4832
+    position-widget-2073: position-widget-3539
+    position-widget-6725: position-widget-3496
+    position-widget-2010: position-widget-5747
+    custom-8572: custom-1968
+    logo-6717: logo-9323
+    copyright-3064: copyright-1736
+    totop-2534: totop-8670
+    mobile-menu-2181: mobile-menu-5697
